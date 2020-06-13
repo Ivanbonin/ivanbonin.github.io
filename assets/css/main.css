@@ -2,9 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 /*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	TO DO
+	- Navigation menu options visible on desktop
 */
 
 html, body, div, span, applet, object,
@@ -151,7 +150,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #F6C40E !important;
 		}
 
 	strong, b {
@@ -198,9 +197,9 @@ input, select, textarea {
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		margin: 4em 0 2em 0;
+		
+		letter-spacing: 0em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -209,6 +208,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		text-transform: uppercase;
 	}
 
 	h3 {
@@ -2333,6 +2333,12 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.lft {
+			display: block;
+			max-width: 40%;
 			top: 0.25em;
 		}
 
